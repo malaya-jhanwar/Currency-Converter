@@ -1,0 +1,102 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+body{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+  background: #f7493c;
+}
+
+.boxes{
+  width: 370px;
+  padding: 30px;
+  border-radius: 7px;
+  background: #fff;
+ 
+}
+.boxes header{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.boxes form{
+  margin: 40px 0 20px 0;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+select{
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+button{
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+form p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+form input{
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid rgb(14, 5, 5);
+}
+
+form .drop-list{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.drop-list .select-box{
+  display: flex;
+  width: 115px;
+  height: 45px;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid rgb(14, 5, 5);
+}
+.select-box img{
+  max-width: 21px;
+}
+.select-box select{
+  width: auto;
+  font-size: 16px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+
+.drop-list .icon{
+ 
+  margin-top: 30px;
+  font-size: 22px;
+}
+form .exchange-rate{
+  font-size: 17px;
+  margin: 20px 0 30px;
+}
+form button{
+  height: 52px;
+  color: #fff;
+  font-size: 17px;
+  
+  background: #f7493c
+  
+}
